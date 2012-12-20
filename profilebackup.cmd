@@ -1,0 +1,1 @@
+c:\windows\robocopy.exe "%userprofile%" "c:\temp\backup" *.* /XF NTUSER.DAT ntuser.dat.LOG1 ntuser.dat.LOG2 /XD AppData "Application Data" "userdata" "start Menu" "windows"  "Local Settings" "%userprofile%\dropbox" /E /Z /R:1 /W:5 /mir /tee /log:c:\robocopylog.txt
